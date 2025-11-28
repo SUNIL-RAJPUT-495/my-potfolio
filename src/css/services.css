@@ -1,0 +1,19 @@
+.main-section{
+    background-color: rgb(227, 229, 229);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hover-card {
+  border-left: 4px solid transparent;
+  transition: all 0.3s ease; 
+  box-shadow: none;
+}
+
+.hover-card:hover {
+  border-left: 4px solid #0d6efd; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  transform: translateY(-2px);
+  background-color: #ffffff;
+  cursor: pointer; 
+}
