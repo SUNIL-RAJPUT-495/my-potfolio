@@ -1,8 +1,13 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../css/home.css";
-import personImg from "../assets/person2-DvYIsw9m.png";
 
 export const Home = () => {
+   const handleClick = () => {
+  window.open("https://github.com/SUNIL-RAJPUT-495", "_blank");
+};
+const downlodCV = ()=>{
+  window.open("/public/Sunilcv.png", "_blank");
+}
   return (
     <>
       <section id="Home">
@@ -20,36 +25,20 @@ export const Home = () => {
                       Sunil Shekhawat
                     </p>
                     <p className="fs-5 mb-5">
-                      I'm a Freelance UI/UX Designer and Developer based in
-                      London, England. I strive to build immersive and beautiful
-                      web applications through carefully crafted code and
-                      user-centric design
+                      Hello! I'm a passionate designer and developer focused on creating clean, user-friendly interfaces and smooth experiences.
                     </p>
                     <Button size="lg" className="mb-5 hello-btn">
                       Say Hello!
                     </Button>
-                    <div className="d-flex mt-3">
-                      <div className="box m-1 p-2">
-                        <h2>15 Y.</h2>
-                        <p>Experience</p>
-                      </div>
-                      <div className="box m-1 p-2">
-                        <h2>250+</h2>
-                        <p>Projects Completed</p>
-                      </div>
-                      <div className="box m-1 p-2">
-                        <h2>58</h2>
-                        <p>Happy Clients</p>
-                      </div>
-                    </div>
+                    
                   </div>
                 </Col>
 
                 <Col md={6}>
                   <div className="imag-container">
                     <img
-                      src={personImg}
-                      className=" w-100 h-100 max-w-134 max-lg-mx-auto aspect-536-636"
+                      src="../../public/123.png"
+                      className=" w-100 h-100 max-w-134 max-lg-mx-auto aspect-536-636 rounded"
                       alt="main-logo"
                     />
                   </div>
@@ -63,28 +52,28 @@ export const Home = () => {
                 <Col md={6}>
                   <div className="imag-container bg-light ">
                     <img
-                      src={personImg}
-                      className="w-100 h-100 max-w-134 max-lg-mx-auto aspect-536-636"
+                      src="../../public/123.png"
+                      className="w-100 h-100 object-cover object-top"
                       alt="main-logo"
                     />
                   </div>
                 </Col>
 
-                <Col md={6}>
-                  <p>I am a Professional User Experience Designer</p>
+                <Col md={6} className="d-flex justify-content-center align-items-center">
+                <div>
+                  <p className="fw-bold">UI/UX Designer | Front-End Developer | Creative Thinker</p>
                   <p>
-                    I design and develop services for customers specializing in
-                    creating stylish, modern websites, web services and online
-                    stores. My passion is to design digital user experiences.
+                   I am a Professional User Experience Designer and MERN Stack Developer. I design and develop modern, responsive, and user
                   </p>
                   <p>
                     I design and develop services for customers specializing in
                     creating stylish, modern websites, web services.
                   </p>
-                  <Button variant="primary" className="me-2 project-btn">
+                  <Button variant="primary" className="me-2 project-btn" onClick={handleClick}>
                     My Projects
                   </Button>
-                  <Button variant="trasparent" className="cv-btn">Download CV</Button>
+                  <Button variant="trasparent" className="cv-btn" onClick={downlodCV}>Download CV</Button>
+                  </div>
                 </Col>
               </Row>
             </Container>

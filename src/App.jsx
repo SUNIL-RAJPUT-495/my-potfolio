@@ -3,9 +3,7 @@ import { Contact } from './components/Contact'
 import { Header} from './components/Header'
 import { Home } from './components/Home'
 import { Potfolio } from './components/Potfolio'
-import { Process } from './components/Process'
 import { Services } from './components/Services'
-import { Blog } from './components/Blog'
 
 
 function App() {
@@ -13,9 +11,8 @@ function App() {
     <>
     <Header/>
   <Home/>
-  <Process/>
   <Potfolio/>
-  <Blog/>
+  
   <Services/>
   <Contact/>
     </>

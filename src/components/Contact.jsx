@@ -25,41 +25,10 @@ export const Contact = () => {
       <div className="main-deev pt-5">
         <section id="Contact">
           <Container>
-            <Row>
-              <Col md={12}>
-                <p className="fs-1 fw-bold text-center">Happy Clients</p>
-                <p className="fs-5 text-center">
-                  I've had the pleasure of working with a diverse range of
-                  companies, from startups to established brands.
-                </p>
-              </Col>
-            </Row>
+            
           </Container>
         </section>
-        <section>
-          <Container>
-            <Row>
-              <Col md={12}>
-                <p className="fs-1 fw-bold text-center">Testimonial</p>
-                <p className="fs-5 text-center">
-                  Working with this team was a fantastic experience.Their
-                  attention to detail and commitment to quality exceeded our
-                  expectations.
-                </p>
-                <p className="fs-5 text-center">
-                  "From the initial consultation to the final delivery, every
-                  step was handled professionally. The end result was a product
-                  that not met our needs but also impressed our stakeholders.
-                  Highly recommended !"
-                </p>
-                <p className="fs-5 text-center">Esther Howard</p>
-                <p className="fs-5 text-center">
-                  Managing Director,ABC Company
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </section>
+       
         <section className="section-1">
           <Container className="border rounded mt-5 mb-5 p-5 main-box bg-white">
             <Row>
@@ -70,15 +39,15 @@ export const Contact = () => {
                   project you think I'd be a good fit for.
                 </p>
                 <span>
-                  <p>Address:</p>
-                  <p>New Mexico,31134</p>
+                  <p className="fw-bold">Address:</p>
+                  <p>jhotwara , jaipur (Rajasthan) </p>
                 </span>
                 <span>
-                  <p>My Email:</p>
+                  <p className="fw-bold">My Email:</p>
                   <p>Sunilsinghshekhawat495@gmail.com</p>
                 </span>
                 <span>
-                  <p>Call Me Now:</p>
+                  <p className="fw-bold">Call Me Now:</p>
                   <p>9928659067</p>
                 </span>
               </Col>
@@ -94,7 +63,7 @@ export const Contact = () => {
                       type="text"
                       placeholder="Name*"
                       className=" mb-4 input fs-5 pb-2"
-                      value={formData.Name}
+                      
                       onChange={handleChange}
                     ></Form.Control>
                   </Form.Group>
@@ -103,7 +72,7 @@ export const Contact = () => {
                       className="input mb-4 fs-5 pb-2"
                       type="Email"
                       placeholder="Email*"
-                      value={formData.Email}
+                    
                       onChange={handleChange}
                     ></Form.Control>
                   </Form.Group>
@@ -112,7 +81,7 @@ export const Contact = () => {
                       className="input mb-4 fs-5 pb-2"
                       type="text"
                       placeholder="Location*"
-                      value={formData.Location}
+                      
                       onChange={handleChange}
                     ></Form.Control>
                   </Form.Group>
@@ -122,7 +91,7 @@ export const Contact = () => {
                         className="input mb-4 fs-5 pb-2"
                         type="number"
                         placeholder="Budget*"
-                        value={formData.Budget}
+                        
                         onChange={handleChange}
                       />
                     </Form.Group>
@@ -131,7 +100,7 @@ export const Contact = () => {
                         className="input mb-4 fs-5 pb-2"
                         type="text"
                         placeholder="Subject*"
-                        value={formData.Subject}
+                       
                         onChange={handleChange}
                       />
                     </Form.Group>
@@ -142,7 +111,7 @@ export const Contact = () => {
                       className="input mb-4 fs-5 pb-2"
                       type="text"
                       placeholder="Message*"
-                      value={formData.Message}
+                     
                       onChange={handleChange}
                     ></Form.Control>
                   </Form.Group>

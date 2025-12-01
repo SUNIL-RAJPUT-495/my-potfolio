@@ -3,12 +3,17 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../css/potfolio.css";
 
 export const Potfolio = () => {
+
+  const handleClick = () => {
+  window.open("https://github.com/SUNIL-RAJPUT-495", "_blank");
+};
+
   const cardData = [
     {
-      Image: "/Potfolio/card-1-D83uj-qZ.png",
-      Tital: "Product Admin Dashboard",
+      Image: "/Potfolio/Blinkit-App-Features-and-Uses-Complete-Guide-e1694417512957 (1).webp",
+      Tital: "Blinkit Clone – Full-Stack Grocery Delivery Platform",
       Detail:
-        "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
+        "A modern Blinkit-inspired grocery platform designed with an intuitive UI and efficient user flow. Developed using MERN, it provides real-time cart management, secure APIs, and a smooth checkout process.",
     },
     {
       Image: "/Potfolio/card-2-BJ8-9N8h.png",
@@ -22,32 +27,15 @@ export const Potfolio = () => {
       Detail:
         "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
     },
-    {
-      Image: "/Potfolio/card-4-1lvzje-u.png",
-      Tital: "Product Admin Dashboard",
-      Detail:
-        "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-    },
-    {
-      Image: "/Potfolio/card-5-TrbU7d8r.png",
-      Tital: "Product Admin Dashboard",
-      Detail:
-        "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-    },
-    {
-      Image: "/Potfolio/card-6-CMi2awuo.png",
-      Tital: "Product Admin Dashboard",
-      Detail:
-        "Enhanced user experience by streamlining workflows and optimizing interface components and so on.",
-    },
+
   ];
   return (
     <>
     <section id="Potfolio">
-      <section className="mt-3">
+      <section className="mt-3 " >
         <Container>
           <Row>
-            <Col md={12}>
+            <Col md={12} style={{marginTop:"250px"}}>
               <p className="text-center fs-1 fs-md-3 fs-lg-5 fw-bold">
                 Potfolio
               </p>
@@ -66,10 +54,10 @@ export const Potfolio = () => {
                 <Card className="m-2" style={{ width: "25rem" }}>
                   <Card.Img variant="top" src={card.Image} />
                   <Card.Body className="p-4">
-                    <p>UI-UX DESIGN</p>
+                    <p>full-stake</p>
                     <Card.Title>{card.Tital}</Card.Title>
                     <Card.Text>{card.Detail}</Card.Text>
-                    <Button variant="transprant" className="border p-2">
+                    <Button variant="transprant" className="border p-2" onClick={handleClick }>
                       Case Study
                     </Button>
                   </Card.Body>

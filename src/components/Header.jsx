@@ -42,18 +42,7 @@ export const Header = () => {
                 </Link>
               </Nav.Item>
 
-              <Nav.Item>
-                <Link
-                  to="Process"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                  className="nav-link"
-                >
-                  Process
-                </Link>
-              </Nav.Item>
+             
 
               <Nav.Item>
                 <Link
@@ -68,18 +57,6 @@ export const Header = () => {
                 </Link>
               </Nav.Item>
 
-              <Nav.Item>
-                <Link
-                  to="Blog"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                  className="nav-link"
-                >
-                  Blog
-                </Link>
-              </Nav.Item>
 
               <Nav.Item>
                 <Link

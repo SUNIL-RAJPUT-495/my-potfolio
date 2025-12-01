@@ -5,9 +5,8 @@ import "../css/services.css";
 export const Services = () => {
   const cardDetail = [
     {
-      Title: "User Experience (UX)",
-      Text: "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
-    },
+      Title: "Web Development (MERN Stack) Services",
+      Text: "I build fast, modern, and responsive web applications using MongoDB, Express, React, and Node.js. My focus is on creating scalable, secure, and user-friendly digital solutions tailored to client needs."},
     {
       Title: "User Interface (UI)",
       Text: "I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.",
@@ -25,14 +24,10 @@ export const Services = () => {
             <Col md={6}>
               <p className="fs-1 fw-bold  ">What I do?</p>
               <p className="fs-5 pe-5">
-                I specialize in designing user experiences, crafting engaging
-                interfaces, and building robust web applications that deliver
-                value and usability.
+                I specialize in designing seamless user experiences, creating visually appealing interfaces, and developing powerful MERN-based web applications that provide real value to my clients.
               </p>
               <p className="fs-5 pe-5 mb-5">
-                My approach combines creativity and technical expertise to
-                deliver solutions that are both visually appealing and highly
-                functional for users.
+                By merging creative insight with technical precision, I craft digital solutions that not only look great but also deliver smooth, meaningful user experiences.
               </p>
               <div className="mb-5">
                 <Button variant="primary" size="sm" className="p-2">
