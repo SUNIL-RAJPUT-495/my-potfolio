@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../css/home.css";
 import resume from "../assets/resume_page-0001.jpg"
+import laptop from "../assets/code.png"
 
 export const Home = () => {
   const handleClick = () => {
@@ -18,7 +19,7 @@ export const Home = () => {
           <section className="pt-5">
             <Container >
               <Row className="pt-5 align-items-center">
-                
+
                 {/* TEXT SECTION */}
                 <Col
                   xs={12}
@@ -58,12 +59,14 @@ export const Home = () => {
 
           {/* ABOUT SECTION */}
           <section className="mt-5" id="About">
-            <Container style={{maxWidth:"800px"}} className="rounded p-4 p-md-5 bg-white second-containt mt-5 detail-container">
+            <Container  className="rounded p-4 p-md-5 bg-white second-containt mt-5 detail-container border">
               <Row className="align-items-center ">
-
+                <Col md={6} xs={12} >
+                 <div className=" imag-container" ><img src={laptop} alt="laptop"   /></div>
+                 </Col>
                 <Col
                   xs={12}
-                  md={12}
+                  md={6}
                   className="d-flex justify-content-center align-items-center text-center text-md-start"
                 >
                   <div >
@@ -79,7 +82,7 @@ export const Home = () => {
                       I specialize in developing stylish, scalable websites and web services, turning ideas into seamless, interactive solutions for users and businesses alike.
                     </p>
 
-                   
+
 
                     <Button
                       variant="trasparent"
