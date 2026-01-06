@@ -9,8 +9,8 @@ export const Header = () => {
         expand="lg"
         bg="white"
         variant="light"
-        fixed="top"
-        className="p-3 "
+        className="p-3 w-100 "
+         fixed="top" 
       >
         <Container>
           <Navbar.Brand className="fw-bold fs-3" href="#">Sunil Shekhawat</Navbar.Brand>

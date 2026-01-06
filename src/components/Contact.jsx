@@ -122,21 +122,23 @@ export const Contact = () => {
           </Container>
         </section>
         <footer className="main-div">
-          <Container className="d-flex justify-content-between align-items-center">
-            <div className="fs-2 fw-bold text-white">Sunil shekhawat</div>
+          <Container >
+            <div className="">
+            <div className="fs-5 fw-bold text-white">Sunil shekhawat</div>
             <div>
-              <ul className="d-flex gap-4  list-unstyled align-items-center text-white ">
+              <ul className="d-flex justify-content-between  list-unstyled align-items-center text-white ">
                 <li>Home</li>
                 <li>About</li>
                 <li>Process</li>
                 <li>Potfolio</li>
-                <li>Blog</li>
+                <li>Blog</li> 
                 <li>Services</li>
                 <li>Contact</li>
               </ul>
             </div>
             <div className="text-white">
               <p>copyright @ 2025 picto.</p>
+            </div>
             </div>
           </Container>
           <div className="text-white text-center fs-5 pt-5">
