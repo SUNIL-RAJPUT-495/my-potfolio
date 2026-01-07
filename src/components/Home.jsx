@@ -33,7 +33,8 @@ export const Home = () => {
                     </p>
 
                     <p className="fs-5 mb-5">
-                      Hello! I'm a passionate designer and developer focused on creating clean, user-friendly interfaces and smooth experiences.
+                      I’m a passionate designer and full-stack MERN developer who loves building clean interfaces and smooth digital experiences.
+Through projects like mernStake, I focus on writing maintainable code, designing intuitive UI, and delivering real-world solutions.
                     </p>
 
                     <Button size="lg" className="mb-5 hello-btn">
