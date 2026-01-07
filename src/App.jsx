@@ -5,7 +5,8 @@ import { Header } from './components/Header'
 import { Home } from './components/Home'
 import { Potfolio } from './components/Potfolio'
 import { Services } from './components/Services'
-import { ProjectDetail } from './components/ProjectDetail'
+import BlinkitProject from './components/projects/blinkitproject' 
+import BlinkitAdmin from './components/projects/blinkitAdmin'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
             </>
           }
         />
-        <Route path="/project/:id" element={<ProjectDetail />} />
+        <Route path="/blinkitProject" element={<BlinkitProject />} />
+        <Route path="/BlinkitAdmin" element={<BlinkitAdmin/>}/>
       </Routes>
     </>
   )
